@@ -1,0 +1,302 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+.header {
+  height: 100px;
+  width: 100%;
+  display: flex;
+  box-shadow: 0px 2px 0px 2px rgba(224, 224, 224, 1);
+}
+.logo {
+  height: 50px;
+  width: 50px;
+}
+.logo img {
+  height: 100%;
+  width: 100%;
+  margin-left: 30px;
+}
+.header .left {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  align-items: center;
+}
+.header .left ul {
+  width: 450px;
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  margin-left: -30px;
+  font-family: "Oswald", sans-serif;
+}
+.header .left ul li:hover {
+  color: #00754a;
+  cursor: pointer;
+}
+.header .right {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.header .right .icon {
+  margin-right: 95px;
+  font-family: "Open Sans", sans-serif;
+}
+.header .right .buttons a {
+  margin-right: 15px;
+  border: 1px solid black;
+  border-radius: 21px;
+  padding: 9px 11px;
+}
+.header .right .buttons {
+  margin-right: 55px;
+  font-family: "Roboto Slab", serif;
+}
+.right .icon svg {
+  margin-right: 5px;
+  font-size: 20px;
+}
+.right .icon:hover {
+  color: #00754a;
+  cursor: pointer;
+}
+.buttons .one:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+.buttons .two {
+  color: white;
+  background-color: black;
+}
+.buttons .two:hover {
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+/* BOX-ONE*/
+.secondheader {
+  height: 700px;
+  width: 100%;
+  display: flex;
+  padding: 35px;
+}
+.secondheader .left-one {
+  height: 100%;
+  width: 50%;
+  background-color: #8e8af3;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.secondheader .right-one {
+  height: 100%;
+  width: 50%;
+}
+.secondheader .right-one img {
+  height: 100%;
+  width: 100%;
+}
+.secondheader .left-one h1 {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 50px;
+  width: 50%;
+  align-self: center;
+}
+.secondheader .left-one p {
+  font-family: "Roboto Slab", serif;
+  font-size: 23px;
+  width: 74%;
+  padding: 40px;
+  align-self: center;
+}
+.secondheader .left-one a {
+  font-family: "Inter", sans-serif;
+  border: 1px solid black;
+  border-radius: 21px;
+  padding: 9px 11px;
+}
+.secondheader .left-one a:hover {
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.secondheader .left-one h1,
+p,
+a {
+  text-align: center;
+}
+/*Second Box*/
+.thirdheader {
+  height: 700px;
+  width: 100%;
+  display: flex;
+  padding: 35px;
+}
+.thirdheader .right-one {
+  height: 100%;
+  width: 50%;
+  background-color: #eb81a5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.thirdheader .left-one {
+  height: 100%;
+  width: 50%;
+}
+.thirdheader .left-one img {
+  height: 100%;
+  width: 100%;
+}
+.thirdheader .right-one h1 {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 50px;
+  width: 50%;
+  align-self: center;
+  color: #1e3932;
+}
+.thirdheader .right-one p {
+  font-family: "Roboto Slab", serif;
+  font-size: 23px;
+  width: 74%;
+  padding: 40px;
+  align-self: center;
+  color: #1e3932;
+}
+
+.thirdheader .right-one a {
+  font-family: "Inter", sans-serif;
+  border: 1px solid black;
+  border-radius: 21px;
+  padding: 9px 11px;
+  color: #1e3932;
+}
+.thirdheader .right-one a:hover {
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.thirdheader .right-one h1,
+p,
+a {
+  text-align: center;
+}
+/*thirdbox*/
+.fourthheader {
+  height: 700px;
+  width: 100%;
+  display: flex;
+  padding: 35px;
+}
+.fourthheader .left-one {
+  height: 100%;
+  width: 50%;
+  background-color: #f1ff67;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.fourthheader .right-one {
+  height: 100%;
+  width: 50%;
+}
+.fourthheader .right-one img {
+  height: 100%;
+  width: 100%;
+}
+.fourthheader .left-one h1 {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 50px;
+  width: 50%;
+  align-self: center;
+  color: #1e3932;
+}
+.fourthheader .left-one p {
+  font-family: "Roboto Slab", serif;
+  font-size: 23px;
+  width: 74%;
+  padding: 40px;
+  align-self: center;
+  color: #1e3932;
+}
+.fourthheader .left-one a {
+  font-family: "Inter", sans-serif;
+  border: 1px solid black;
+  border-radius: 21px;
+  padding: 9px 11px;
+  color: #1e3932;
+}
+.fourthheader .left-one a:hover {
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.fourthheader .left-one h1,
+p,
+a {
+  text-align: center;
+}
+/*fourthbox*/
+.fifthheader {
+  height: 700px;
+  width: 100%;
+  display: flex;
+  padding: 35px;
+}
+.fifthheader .right-one {
+  height: 100%;
+  width: 50%;
+  background-color: #fc6446;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.fifthheader .left-one {
+  height: 100%;
+  width: 50%;
+}
+.fifthheader .left-one img {
+  height: 100%;
+  width: 100%;
+}
+.fifthheader .right-one h1 {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 50px;
+  width: 50%;
+  align-self: center;
+}
+.fifthheader .right-one p {
+  font-family: "Roboto Slab", serif;
+  font-size: 23px;
+  width: 74%;
+  padding: 40px;
+  align-self: center;
+}
+.fifthheader .right-one a {
+  font-family: "Inter", sans-serif;
+  border: 1px solid black;
+  border-radius: 21px;
+  padding: 9px 11px;
+}
+.fifthheader .right-one a:hover {
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.fifthheader .right-one h1,
+p,
+a {
+  text-align: center;
+}
